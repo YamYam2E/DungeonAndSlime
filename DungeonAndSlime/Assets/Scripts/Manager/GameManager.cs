@@ -21,6 +21,8 @@ namespace Manager
         {
             base.Initialize();
 
+            Application.targetFrameRate = 60;
+            
             DOTween.Init(true);
             
             TableManager.Instance.Initialize();
