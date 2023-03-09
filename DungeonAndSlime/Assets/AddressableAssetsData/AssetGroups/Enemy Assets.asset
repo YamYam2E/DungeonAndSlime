@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: Enemy Assets
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: Enemy Assets
   m_Data:
     m_SerializedData: []
-  m_GUID: 6819851478f5d7b4abb737d90d54a4c6
-  m_SerializeEntries: []
+  m_GUID: 40a27b6a62e3b584ebb444006f25205d
+  m_SerializeEntries:
+  - m_GUID: 11574da2ffb933a43b9d107263aa4a79
+    m_Address: Enemies
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemy
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c56a28139600a814b95461a4db34af11, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 78d114610f8f1724d99bf7ced28f5fa5, type: 2}
-    - {fileID: 11400000, guid: a7aa053120802b3429bdcda0a4d368fa, type: 2}
+    - {fileID: 11400000, guid: 8f7d94736a3019249b3e3e20fd25ac2a, type: 2}
+    - {fileID: 11400000, guid: 69989d2ece20f8947a8d90cb989a2517, type: 2}
