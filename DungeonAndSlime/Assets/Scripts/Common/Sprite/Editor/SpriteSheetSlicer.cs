@@ -83,6 +83,10 @@ namespace Common.Sprite.Editor
             }
         }
 
+        /// <summary>
+        /// 아래의 코드는 하나의 sprite sheet에 2개의 애니메이션이 들어있기 때문에,
+        /// 강제로 5번째 sprite부터 키 프레임을 잡도록 만듦
+        /// </summary>
         [MenuItem("Custom/Create Sprite Animation")]
         private static void CreateSpriteLibrary()
         {

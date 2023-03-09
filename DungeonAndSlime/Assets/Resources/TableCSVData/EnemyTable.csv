@@ -1,6 +1,0 @@
-﻿Enemy Index,Title of Enemy,Enemy Name,,,,,Hitpoint,,,,Default = 4
-Index,Title,Name,AttackPower,AttackSpeed,AttackRange,AttackPowerRate,Hp,Protection,CriticalPower,CriticalRate,MoveSpeed
-int,string,string,int,float,float,int,int,int,int,int,int
-1,어제부터 모험가,초보 검사,10,1,3,0,100,2,0,0,4
-2,어제부터 모험가,초보 마법사,20,0.8,6,0,100,0,0,0,4
-3,기회를 노리는,간사한 검사,30,0.5,1.5,0,250,5,0,0,5
