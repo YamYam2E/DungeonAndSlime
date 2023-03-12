@@ -85,7 +85,9 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
-    - Enemy
+    - EnemyAnimation
+    - EnemyAnimator
+    - EnemyTexture
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: d017cc8d3aa6718439b6f014d0aa2b5b, type: 2}

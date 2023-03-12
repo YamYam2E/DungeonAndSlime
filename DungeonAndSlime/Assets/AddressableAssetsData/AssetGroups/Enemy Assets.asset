@@ -17,11 +17,21 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 40a27b6a62e3b584ebb444006f25205d
   m_SerializeEntries:
-  - m_GUID: 11574da2ffb933a43b9d107263aa4a79
-    m_Address: Enemies
+  - m_GUID: e5e6bbd881f292d4a96ac6593626f679
+    m_Address: Assets/Resources_moved/Enemies/Animation
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Enemy
+    - EnemyAnimation
+  - m_GUID: 49aa2a83f56687c429fd4ec0ae19560d
+    m_Address: Assets/Resources_moved/Enemies/Animator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EnemyAnimator
+  - m_GUID: fbfc1f7c11d0c094e8e17aa10d5e1f09
+    m_Address: Assets/Resources_moved/Enemies/Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EnemyTexture
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c56a28139600a814b95461a4db34af11, type: 2}
   m_SchemaSet:
