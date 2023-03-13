@@ -31,10 +31,22 @@ namespace Manager
 
             //Test code for clean caching
             Caching.ClearCache();
-            
-            StartCoroutine( LoadAnimatorAsset() );
+
+            StartCoroutine( InitializeAddressable() );
+            // StartCoroutine( LoadAnimatorAsset() );
             // StartCoroutine( LoadAnimationAsset() );
             // StartCoroutine( LoadTextureAsset() );
+        }
+
+        private IEnumerator InitializeAddressable()
+        {
+            var handler = Addressables.InitializeAsync();
+
+            while (!handler.IsDone)
+                yield return null;
+            
+            Debug.Log(handler.Result.LocatorId);
+            Debug.Log(string.Join(", ", handler.Result.Keys));
         }
 
         private IEnumerator LoadAnimatorAsset()
@@ -83,7 +95,6 @@ namespace Manager
             foreach (var data in result.Result)
             {
                 preloadedTexture2Ds.Add(data.name, data);
-                
             }
             
             GameDebug.Log($"Completed to load Texture2D Asset by addressable : total [{preloadedTexture2Ds.Count}]");
